@@ -1,0 +1,38 @@
+.error {
+    padding: 0.5rem;
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 1px solid red;
+    border-radius: 6px;
+    margin: 0.5rem 0 0 0;
+}
+
+.row {
+    width: 300px;
+    padding: 0.5rem 0;
+}
+
+.input {
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid #ba24ec;
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+.submit {
+    padding: 0.5rem 0;
+    background-color: #580474;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100%;
+    box-shadow: 0 1px 4px 0 rgba(22, 24, 26, 0.15);
+    border-radius: 30px;
+
+    &.disabled {
+        background-color: #ba24ec;
+        color: #ffffff;
+        box-shadow: inherit;
+        border-radius: 30px;
+    }
+}
